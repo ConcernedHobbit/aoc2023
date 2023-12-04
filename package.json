@@ -1,0 +1,7 @@
+{
+  "name": "aoc2023",
+  "private": "true",
+  "devDependencies": {
+    "bun-types": "^0.5.0"
+  }
+}
