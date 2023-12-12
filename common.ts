@@ -1,7 +1,7 @@
 /**
  * Reads d<n>.txt for input or defers to cli input
  */
-export const getInput = async (day: number) => {
+export const getInput = async (day: number | string) => {
   const file = Bun.file(`d${day.toString()}.txt`);
   const cli = process.argv[2];
   return cli ?? (await file.text());
